@@ -1,14 +1,11 @@
 
+import sessionStore from '../repositories/session.repository.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { sendSuccess } from '../utils/response.js';
 
 
 export const createSession = asyncHandler(async (req, res) => {
-  const session = {
-    id: '12345',
-    createdAt: new Date().toISOString(),
-  };
-
+  const session = sessionStore.createSession(req.body || {});
   sendSuccess(res, {
     sessionId: session.id,
     createdAt: session.createdAt,
@@ -17,8 +14,7 @@ export const createSession = asyncHandler(async (req, res) => {
 
 export const getSessionChat = asyncHandler(async (req, res) => {
   const { sessionId } = req.params;
-  const messages = [];
-
+  const messages = sessionStore.listMessages(sessionId);
   sendSuccess(res, { sessionId, messages });
 });
 
