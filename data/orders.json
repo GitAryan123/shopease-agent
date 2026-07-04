@@ -1,0 +1,308 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer_name": "Alice Johnson",
+      "customer_email": "alice.johnson@example.com",
+      "status": "delivered",
+      "order_date": "2026-06-25",
+      "delivery_date": "2026-06-28",
+      "items": [
+        {
+          "name": "Wireless Bluetooth Headphones",
+          "sku": "WBH-001",
+          "quantity": 1,
+          "price": 79.99
+        },
+        {
+          "name": "USB-C Charging Cable (6ft)",
+          "sku": "CBL-042",
+          "quantity": 2,
+          "price": 12.99
+        }
+      ],
+      "subtotal": 105.97,
+      "shipping": 0.00,
+      "tax": 8.48,
+      "total": 114.45,
+      "payment_method": "credit_card",
+      "shipping_address": {
+        "line1": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456784"
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer_name": "Bob Martinez",
+      "customer_email": "bob.martinez@example.com",
+      "status": "delivered",
+      "order_date": "2026-05-10",
+      "delivery_date": "2026-05-14",
+      "items": [
+        {
+          "name": "Premium Yoga Mat",
+          "sku": "PYM-007",
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "subtotal": 49.99,
+      "shipping": 5.99,
+      "tax": 4.48,
+      "total": 60.46,
+      "payment_method": "paypal",
+      "shipping_address": {
+        "line1": "1200 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10029",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456785"
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer_name": "Catherine Lee",
+      "customer_email": "catherine.lee@example.com",
+      "status": "shipped",
+      "order_date": "2026-06-29",
+      "estimated_delivery": "2026-07-03",
+      "items": [
+        {
+          "name": "Smart Home Security Camera",
+          "sku": "SHS-020",
+          "quantity": 2,
+          "price": 129.99
+        }
+      ],
+      "subtotal": 259.98,
+      "shipping": 0.00,
+      "tax": 20.80,
+      "total": 280.78,
+      "payment_method": "credit_card",
+      "shipping_address": {
+        "line1": "456 Oak Lane",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456786",
+      "carrier": "UPS",
+      "tracking_url": "https://www.ups.com/track/1Z999AA10123456786"
+    },
+    {
+      "order_id": "ORD-1004",
+      "customer_name": "David Kim",
+      "customer_email": "david.kim@example.com",
+      "status": "processing",
+      "order_date": "2026-06-30",
+      "items": [
+        {
+          "name": "Mechanical Keyboard (Cherry MX Blue)",
+          "sku": "MKB-015",
+          "quantity": 1,
+          "price": 149.99
+        },
+        {
+          "name": "Ergonomic Mouse Pad",
+          "sku": "EMP-003",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "subtotal": 174.98,
+      "shipping": 12.99,
+      "tax": 15.04,
+      "total": 203.01,
+      "payment_method": "google_pay",
+      "shipping_address": {
+        "line1": "789 Pine Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94102",
+        "country": "US"
+      }
+    },
+    {
+      "order_id": "ORD-1005",
+      "customer_name": "Emily Chen",
+      "customer_email": "emily.chen@example.com",
+      "status": "cancelled",
+      "order_date": "2026-06-28",
+      "cancelled_date": "2026-06-28",
+      "items": [
+        {
+          "name": "Stainless Steel Water Bottle",
+          "sku": "SSW-009",
+          "quantity": 3,
+          "price": 19.99
+        }
+      ],
+      "subtotal": 59.97,
+      "shipping": 0.00,
+      "tax": 4.80,
+      "total": 64.77,
+      "payment_method": "apple_pay",
+      "shipping_address": {
+        "line1": "321 Maple Drive",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201",
+        "country": "US"
+      }
+    },
+    {
+      "order_id": "ORD-1006",
+      "customer_name": "Frank Wilson",
+      "customer_email": "frank.wilson@example.com",
+      "status": "refunded",
+      "order_date": "2026-06-15",
+      "delivery_date": "2026-06-18",
+      "refund_date": "2026-06-22",
+      "refund_amount": 249.99,
+      "items": [
+        {
+          "name": "4K Webcam Pro",
+          "sku": "4KW-001",
+          "quantity": 1,
+          "price": 249.99
+        }
+      ],
+      "subtotal": 249.99,
+      "shipping": 0.00,
+      "tax": 20.00,
+      "total": 269.99,
+      "payment_method": "credit_card",
+      "shipping_address": {
+        "line1": "555 Cedar Boulevard",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456787",
+      "return_reason": "Item did not meet expectations — low video quality"
+    },
+    {
+      "order_id": "ORD-1007",
+      "customer_name": "Grace Patel",
+      "customer_email": "grace.patel@example.com",
+      "status": "delivered",
+      "order_date": "2026-06-20",
+      "delivery_date": "2026-06-23",
+      "items": [
+        {
+          "name": "Noise-Cancelling Earbuds",
+          "sku": "NCE-012",
+          "quantity": 1,
+          "price": 199.99
+        }
+      ],
+      "subtotal": 199.99,
+      "shipping": 0.00,
+      "tax": 16.00,
+      "total": 215.99,
+      "payment_method": "paypal",
+      "shipping_address": {
+        "line1": "888 Birch Avenue",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456788"
+    },
+    {
+      "order_id": "ORD-1008",
+      "customer_name": "Henry Nguyen",
+      "customer_email": "henry.nguyen@example.com",
+      "status": "processing",
+      "order_date": "2026-07-01T14:30:00Z",
+      "items": [
+        {
+          "name": "Portable Bluetooth Speaker",
+          "sku": "PBS-005",
+          "quantity": 1,
+          "price": 89.99
+        }
+      ],
+      "subtotal": 89.99,
+      "shipping": 5.99,
+      "tax": 7.68,
+      "total": 103.66,
+      "payment_method": "credit_card",
+      "shipping_address": {
+        "line1": "222 Walnut Street",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "country": "US"
+      }
+    },
+    {
+      "order_id": "ORD-1009",
+      "customer_name": "Isabella Rossi",
+      "customer_email": "isabella.rossi@example.com",
+      "status": "shipped",
+      "order_date": "2026-06-26",
+      "estimated_delivery": "2026-07-08",
+      "items": [
+        {
+          "name": "Leather Laptop Bag 15\"",
+          "sku": "LLB-003",
+          "quantity": 1,
+          "price": 159.99
+        }
+      ],
+      "subtotal": 159.99,
+      "shipping": 34.99,
+      "tax": 15.60,
+      "total": 210.58,
+      "payment_method": "credit_card",
+      "shipping_address": {
+        "line1": "Via Roma 42",
+        "city": "Milan",
+        "state": "MI",
+        "zip": "20121",
+        "country": "IT"
+      },
+      "tracking_number": "1Z999AA10123456789",
+      "carrier": "DHL",
+      "tracking_url": "https://www.dhl.com/track/1Z999AA10123456789"
+    },
+    {
+      "order_id": "ORD-1010",
+      "customer_name": "James O'Brien",
+      "customer_email": "james.obrien@example.com",
+      "status": "delivered",
+      "order_date": "2026-06-27",
+      "delivery_date": "2026-06-30",
+      "items": [
+        {
+          "name": "Smart LED Desk Lamp",
+          "sku": "SDL-008",
+          "quantity": 1,
+          "price": 69.99
+        }
+      ],
+      "subtotal": 69.99,
+      "shipping": 0.00,
+      "tax": 5.60,
+      "total": 75.59,
+      "payment_method": "gift_card",
+      "shipping_address": {
+        "line1": "4400 Highland Drive",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "country": "US"
+      },
+      "tracking_number": "1Z999AA10123456790"
+    }
+  ]
+}

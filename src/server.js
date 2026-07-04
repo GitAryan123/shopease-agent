@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import apiRoutes from './routes/api.js';
+import { asyncHandler } from './utils/asyncHandler.js';
 
 const PORT = process.env.PORT || 3000;
 
@@ -20,7 +21,7 @@ app.use("/test", (req, res) => {
 app.use('/api', apiRoutes);
 
 // Health check endpoint
-app.get('/health', async (req, res) => {
+app.get('/health', asyncHandler(async (req, res) => {
   const health = {
     status: 'ok',
     server: 'up',
@@ -29,7 +30,7 @@ app.get('/health', async (req, res) => {
     timestamp: new Date().toISOString(),
   };
   res.status(200).json(health);
-});
+}));
 
 // 404 fallback
 app.use((req, res) => {

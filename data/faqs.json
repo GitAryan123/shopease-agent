@@ -1,0 +1,155 @@
+{
+  "articles": [
+    {
+      "id": "FAQ-001",
+      "title": "What are your shipping options and delivery times?",
+      "category": "shipping",
+      "content": "We offer three shipping options: Standard Shipping (5-7 business days, free on orders over $50), Express Shipping (2-3 business days, $12.99), and Overnight Shipping (next business day, $24.99). Orders placed before 2 PM EST are processed the same day. Delivery times are estimates and may vary during peak seasons.",
+      "tags": [
+        "shipping",
+        "delivery",
+        "options",
+        "cost"
+      ]
+    },
+    {
+      "id": "FAQ-002",
+      "title": "Do you ship internationally?",
+      "category": "shipping",
+      "content": "Yes, we ship to over 40 countries. International Standard Shipping takes 10-15 business days and costs $19.99. International Express takes 5-7 business days and costs $34.99. Please note that customs fees and import duties are the responsibility of the customer and are not included in the shipping cost.",
+      "tags": [
+        "international",
+        "shipping",
+        "customs",
+        "overseas"
+      ]
+    },
+    {
+      "id": "FAQ-003",
+      "title": "What is your return policy?",
+      "category": "returns",
+      "content": "You can return most items within 30 days of delivery for a full refund. Items must be unused, in original packaging, and include all accessories and manuals. Some items like personal care products, underwear, and downloadable software are non-returnable. Return shipping is free for defective or incorrect items; otherwise, a $5.99 return shipping fee applies.",
+      "tags": [
+        "return",
+        "refund",
+        "policy",
+        "30 days"
+      ]
+    },
+    {
+      "id": "FAQ-004",
+      "title": "How long do refunds take to process?",
+      "category": "refunds",
+      "content": "Once we receive your returned item, refunds are processed within 5-7 business days. The refund will be issued to your original payment method. Depending on your bank or credit card provider, it may take an additional 2-3 business days for the refund to appear on your statement. You will receive an email confirmation once the refund has been initiated.",
+      "tags": [
+        "refund",
+        "processing time",
+        "payment",
+        "money back"
+      ]
+    },
+    {
+      "id": "FAQ-005",
+      "title": "Can I cancel my order after placing it?",
+      "category": "orders",
+      "content": "You can cancel your order within 1 hour of placing it at no charge. To cancel, go to your Orders page and click 'Cancel Order', or contact our support team immediately. After 1 hour, the order enters processing and cannot be cancelled. In that case, you can refuse delivery or initiate a return once you receive the package.",
+      "tags": [
+        "cancel",
+        "order",
+        "1 hour",
+        "change"
+      ]
+    },
+    {
+      "id": "FAQ-006",
+      "title": "What payment methods do you accept?",
+      "category": "payments",
+      "content": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, Google Pay, and ShopEase Gift Cards. We also offer ShopEase PayLater (buy now, pay in 4 installments) for orders over $50. All payments are processed securely through our PCI-compliant payment gateway.",
+      "tags": [
+        "payment",
+        "credit card",
+        "paypal",
+        "gift card",
+        "methods"
+      ]
+    },
+    {
+      "id": "FAQ-007",
+      "title": "What warranty coverage do your products come with?",
+      "category": "warranty",
+      "content": "All products come with a minimum 1-year manufacturer warranty covering defects in materials and workmanship. Electronics and appliances include a 2-year warranty. Extended warranty plans (up to 4 years) are available for purchase at checkout. Warranty claims can be filed through your account or by contacting our support team with your order number.",
+      "tags": [
+        "warranty",
+        "coverage",
+        "defect",
+        "repair",
+        "replacement"
+      ]
+    },
+    {
+      "id": "FAQ-008",
+      "title": "Can I exchange an item instead of returning it?",
+      "category": "returns",
+      "content": "Yes, exchanges are available for the same item in a different size, color, or variant within 30 days of delivery. Exchanges are free — we cover shipping both ways. To initiate an exchange, go to your Orders page, select the item, and choose 'Exchange'. The replacement item ships once the return is scanned by the carrier, so you don't have to wait.",
+      "tags": [
+        "exchange",
+        "swap",
+        "size",
+        "color",
+        "variant"
+      ]
+    },
+    {
+      "id": "FAQ-009",
+      "title": "What happens if an item I ordered is out of stock?",
+      "category": "orders",
+      "content": "If an item in your order is out of stock, we will notify you via email within 24 hours. You will have the option to: (1) wait for the item to be restocked (we'll provide an estimated date), (2) substitute with a similar item, or (3) cancel that specific item for a full refund. The rest of your order will ship as normal.",
+      "tags": [
+        "out of stock",
+        "backorder",
+        "cancel",
+        "substitute"
+      ]
+    },
+    {
+      "id": "FAQ-010",
+      "title": "How do promo codes and discounts work?",
+      "category": "payments",
+      "content": "Promo codes can be applied at checkout in the 'Promo Code' field. Only one promo code can be used per order. Promo codes cannot be combined with other offers unless explicitly stated. Some exclusions apply, including sale items, gift cards, and select premium brands. If your promo code isn't working, check the expiration date and minimum purchase requirements.",
+      "tags": [
+        "promo",
+        "discount",
+        "coupon",
+        "code",
+        "sale"
+      ]
+    },
+    {
+      "id": "FAQ-011",
+      "title": "How do I contact customer support?",
+      "category": "support",
+      "content": "Our customer support team is available Monday through Friday, 8 AM to 8 PM EST, and Saturday 9 AM to 5 PM EST. You can reach us via: Live Chat (in your account or on our website — fastest response), Email (support@shopease.example.com — replies within 4 hours), or Phone (1-800-555-SHOP — wait times may vary during peak hours). For urgent issues, we recommend Live Chat.",
+      "tags": [
+        "contact",
+        "support",
+        "help",
+        "chat",
+        "phone",
+        "email"
+      ]
+    },
+    {
+      "id": "FAQ-012",
+      "title": "Can I delete my account?",
+      "category": "account",
+      "content": "Yes, you can delete your account at any time. Go to Account Settings → Privacy → Delete Account. Please note: account deletion is permanent and cannot be undone. Any pending orders will still be fulfilled. Your personal data will be removed within 30 days as per our privacy policy. If you have active subscriptions, cancel those first before deleting your account.",
+      "tags": [
+        "account",
+        "delete",
+        "privacy",
+        "data",
+        "close"
+      ]
+    }
+  ]
+}
