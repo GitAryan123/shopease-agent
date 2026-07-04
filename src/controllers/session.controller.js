@@ -2,6 +2,7 @@
 import sessionStore from '../repositories/session.repository.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { sendSuccess } from '../utils/response.js';
+import { validateSessionId } from '../utils/validation.js';
 
 
 export const createSession = asyncHandler(async (req, res) => {
@@ -14,6 +15,9 @@ export const createSession = asyncHandler(async (req, res) => {
 
 export const getSessionChat = asyncHandler(async (req, res) => {
   const { sessionId } = req.params;
+
+  validateSessionId(sessionId);
+  
   const messages = sessionStore.listMessages(sessionId);
   sendSuccess(res, { sessionId, messages });
 });
