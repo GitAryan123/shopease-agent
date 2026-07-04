@@ -1,6 +1,6 @@
 {
   "name": "shopease-agent",
-   "type": "module",
+  "type": "module",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -11,10 +11,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^2.10.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "nodemon": "^3.1.14",
+    "openai": "^6.45.0",
     "uuid": "^14.0.1"
   }
 }

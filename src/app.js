@@ -23,6 +23,7 @@ app.get(
     "/health",
     asyncHandler(async (req, res) => {
         res.json({
+            success: true,
             status: "ok",
             server: "up",
             timestamp: new Date().toISOString(),
