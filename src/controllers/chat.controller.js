@@ -3,9 +3,10 @@ import sessionStore from '../repositories/session.repository.js';
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { sendSuccess } from "../utils/response.js";
 import { runAgentTurn } from '../agent/agent.js';
+import { CHAT_TIMEOUT_MS } from '../constants/index.js';
 
 
-export const handleChatTurn = asyncHandler(async (req, res) => {
+export const handleChatTurn = asyncHandler(async (req, res, next) => {
   const { sessionId } = req.params;
   const { message } = req.body || {};
 
@@ -23,12 +24,9 @@ export const handleChatTurn = asyncHandler(async (req, res) => {
       responded = true;
       const error = new Error('Agent response timed out.');
       error.statusCode = 504;
-      throw error;
+      next(error)
     }
-  }, 50000);
-
-
-  const messageId = uuidv4();
+  }, CHAT_TIMEOUT_MS);
 
   try {
     const { newMessages, finalText, provider } = await runAgentTurn(session, message.trim());
