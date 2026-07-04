@@ -3,6 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import apiRoutes from './routes/api.js';
 import { asyncHandler } from './utils/asyncHandler.js';
+import { errorHandler } from './middlewares/error.middleware.js';
 
 const PORT = process.env.PORT || 3000;
 
@@ -40,7 +41,8 @@ app.use((req, res) => {
   });
 });
 
-
+// Error handler
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log(`ShopEase Support Service listening on http://localhost:${PORT}`);
